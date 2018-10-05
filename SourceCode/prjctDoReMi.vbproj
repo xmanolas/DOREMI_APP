@@ -1,0 +1,700 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{6B1142D6-D9F4-47A7-BDD4-268E90D39875}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "iu-ico.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "prjctDoReMi"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "prjctDoReMi"
+                StartupObject = "prjctDoReMi.frmLogin"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "finalfiles"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Shared"
+                    AssemblyName = "CrystalDecisions.Shared"
+                    HintPath = "D:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.Shared.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.ReportSource"
+                    AssemblyName = "CrystalDecisions.ReportSource"
+                    HintPath = "D:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.ReportSource.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.CrystalReports.Engine"
+                    AssemblyName = "CrystalDecisions.CrystalReports.Engine"
+                    HintPath = "D:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.CrystalReports.Engine.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Windows.Forms"
+                    AssemblyName = "CrystalDecisions.Windows.Forms"
+                    HintPath = "D:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.Windows.Forms.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "D:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "classIU"
+                    AssemblyName = "classIU"
+                    HintPath = "classIU.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "app.config"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "dtsBookSearch.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtsBookSearch.vb"
+                />
+                <File
+                    RelPath = "dtsBookSearch.vb"
+                    DependentUpon = "dtsBookSearch.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtsBookSearch.xsx"
+                    DependentUpon = "dtsBookSearch.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "dtsBookss.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtsBookss.vb"
+                />
+                <File
+                    RelPath = "dtsBookss.vb"
+                    DependentUpon = "dtsBookss.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtsBookss.xsx"
+                    DependentUpon = "dtsBookss.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "dtsCustomermod.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtsCustomermod.vb"
+                />
+                <File
+                    RelPath = "dtsCustomermod.vb"
+                    DependentUpon = "dtsCustomermod.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtsCustomermod.xsx"
+                    DependentUpon = "dtsCustomermod.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "dtsCustomers.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtsCustomers.vb"
+                />
+                <File
+                    RelPath = "dtsCustomers.vb"
+                    DependentUpon = "dtsCustomers.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtsCustomers.xsx"
+                    DependentUpon = "dtsCustomers.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "dtsfp.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtsfp.vb"
+                />
+                <File
+                    RelPath = "dtsfp.vb"
+                    DependentUpon = "dtsfp.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtsfp.xsx"
+                    DependentUpon = "dtsfp.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "dtskiniseislast.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtskiniseislast.vb"
+                />
+                <File
+                    RelPath = "dtskiniseislast.vb"
+                    DependentUpon = "dtskiniseislast.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtskiniseislast.xsx"
+                    DependentUpon = "dtskiniseislast.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "dtsKiniseisSrch.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtsKiniseisSrch.vb"
+                />
+                <File
+                    RelPath = "dtsKiniseisSrch.vb"
+                    DependentUpon = "dtsKiniseisSrch.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtsKiniseisSrch.xsx"
+                    DependentUpon = "dtsKiniseisSrch.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "dtsparagelieslast.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtsparagelieslast.vb"
+                />
+                <File
+                    RelPath = "dtsparagelieslast.vb"
+                    DependentUpon = "dtsparagelieslast.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtsparagelieslast.xsx"
+                    DependentUpon = "dtsparagelieslast.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "dtsparagelliessearch.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtsparagelliessearch.vb"
+                />
+                <File
+                    RelPath = "dtsparagelliessearch.vb"
+                    DependentUpon = "dtsparagelliessearch.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtsparagelliessearch.xsx"
+                    DependentUpon = "dtsparagelliessearch.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "dtsSmallInstr.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtsSmallInstr.vb"
+                />
+                <File
+                    RelPath = "dtsSmallInstr.vb"
+                    DependentUpon = "dtsSmallInstr.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtsSmallsubinstr.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtsSmallsubinstr.vb"
+                />
+                <File
+                    RelPath = "dtsSmallsubinstr.vb"
+                    DependentUpon = "dtsSmallsubinstr.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtsSmallsubinstr.xsx"
+                    DependentUpon = "dtsSmallsubinstr.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "dtssmlbooks.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtssmlbooks.vb"
+                />
+                <File
+                    RelPath = "dtssmlbooks.vb"
+                    DependentUpon = "dtssmlbooks.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtssmlbooks.xsx"
+                    DependentUpon = "dtssmlbooks.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "dtssubcombo2.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtssubcombo2.vb"
+                />
+                <File
+                    RelPath = "dtssubcombo2.vb"
+                    DependentUpon = "dtssubcombo2.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtssubcombo2.xsx"
+                    DependentUpon = "dtssubcombo2.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "dtsSuppliermod.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtsSuppliermod.vb"
+                />
+                <File
+                    RelPath = "dtsSuppliermod.vb"
+                    DependentUpon = "dtsSuppliermod.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtsSuppliermod.xsx"
+                    DependentUpon = "dtsSuppliermod.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "dtsSupplierss.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dtsSupplierss.vb"
+                />
+                <File
+                    RelPath = "dtsSupplierss.vb"
+                    DependentUpon = "dtsSupplierss.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dtsSupplierss.xsx"
+                    DependentUpon = "dtsSupplierss.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Form1.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Form1.resx"
+                    DependentUpon = "Form1.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmBooks.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmBooks.resx"
+                    DependentUpon = "frmBooks.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmBookSearch.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmBookSearch.resx"
+                    DependentUpon = "frmBookSearch.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmCustomermod.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmCustomermod.resx"
+                    DependentUpon = "frmCustomermod.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmCustomers.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmCustomers.resx"
+                    DependentUpon = "frmCustomers.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmKiniseislast.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmKiniseislast.resx"
+                    DependentUpon = "frmKiniseislast.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmKiniseisSearch.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmKiniseisSearch.resx"
+                    DependentUpon = "frmKiniseisSearch.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmLogin.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmLogin.resx"
+                    DependentUpon = "frmLogin.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmParagelieslast.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmParagelieslast.resx"
+                    DependentUpon = "frmParagelieslast.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmParageliesSearch.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmParageliesSearch.resx"
+                    DependentUpon = "frmParageliesSearch.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmSmallInstr.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmSmallInstr.resx"
+                    DependentUpon = "frmSmallInstr.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmSmallSubInstr.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmSmallSubInstr.resx"
+                    DependentUpon = "frmSmallSubInstr.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmsmallsubinstr2.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmsmallsubinstr2.resx"
+                    DependentUpon = "frmsmallsubinstr2.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmSuppliermod.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmSuppliermod.resx"
+                    DependentUpon = "frmSuppliermod.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmSuppliers.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmSuppliers.resx"
+                    DependentUpon = "frmSuppliers.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmtempbooks.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmtempbooks.resx"
+                    DependentUpon = "frmtempbooks.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "iu-ico.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Module1.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "rptBooks.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptBooks.vb"
+                />
+                <File
+                    RelPath = "rptBooks.vb"
+                    DependentUpon = "rptBooks.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "rptBooksext.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptBooksext.vb"
+                />
+                <File
+                    RelPath = "Copy of rptBooks.vb"
+                    DependentUpon = "rptBooksext.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "rptBooksext.vb"
+                    DependentUpon = "rptBooksext.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "rptcustomers.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptcustomers.vb"
+                />
+                <File
+                    RelPath = "rptcustomers.vb"
+                    DependentUpon = "rptcustomers.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "rptparagellies.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptparagellies.vb"
+                />
+                <File
+                    RelPath = "rptparagellies.vb"
+                    DependentUpon = "rptparagellies.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "rptSales.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptSales.vb"
+                />
+                <File
+                    RelPath = "rptSales.vb"
+                    DependentUpon = "rptSales.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "rptSuppliers.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptSuppliers.vb"
+                />
+                <File
+                    RelPath = "rptSuppliers.vb"
+                    DependentUpon = "rptSuppliers.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+            </Include>
+        </Files>
+        <StartupServices>
+            <Service ID = "{CF845C55-C321-4742-B673-E6212D061ED9}" />
+        </StartupServices>
+    </VisualBasic>
+</VisualStudioProject>
+
