@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "doremisetup", "doremisetup.vdproj", "{967F3CF3-5467-44D5-8551-FB3036AF66EC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{967F3CF3-5467-44D5-8551-FB3036AF66EC}.Debug.ActiveCfg = Debug
+		{967F3CF3-5467-44D5-8551-FB3036AF66EC}.Debug.Build.0 = Debug
+		{967F3CF3-5467-44D5-8551-FB3036AF66EC}.Release.ActiveCfg = Release
+		{967F3CF3-5467-44D5-8551-FB3036AF66EC}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

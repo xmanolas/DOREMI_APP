@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dtsfp" targetNamespace="http://www.tempuri.org/dtsfp.xsd" xmlns:mstns="http://www.tempuri.org/dtsfp.xsd" xmlns="http://www.tempuri.org/dtsfp.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dtsfp" msdata:IsDataSet="true" msdata:Locale="el-GR">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="tblfp">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="aa" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="fp" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblfp" />
+      <xs:field xpath="mstns:aa" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
